@@ -8,6 +8,9 @@
 body{
    background-color:var(--cor-do-fundo);
    color:var(--branco-principal);
+   font-family: var(--fonte-principal);
+   font-size: 16px;
+   font-weight: 400;
 }
 
 
@@ -35,7 +38,26 @@ background-size: contain;
     padding: 1em;
     color: var(--branco-principal);
     display: block;
+    text-decoration: none;
 }
+
+.botao__secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal)
+    
+}
+.container__aviso{
+    font-size: 12px;
+    color: var(--cinza-secundário);
+
+}
+ .container__titulo{
+  font-size: 28px;
+  font-weight: 700;
+  
+
+ }
+
 
 
 
